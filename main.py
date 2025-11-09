@@ -83,7 +83,7 @@ def validate_message_length(message):
 def get_user_input():
     """Collect transaction parameters from user"""
     print("\n" + "="*60)
-    print(" BITCOIN MESSAGE TRANSACTION CREATOR")
+    print(" BITSCANPRO BITCOIN TRANSACTION CREATOR")
     print("="*60)
     
     # Private Key
@@ -220,5 +220,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
