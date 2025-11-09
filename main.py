@@ -15,8 +15,8 @@ except ImportError:
     print("Please install dependencies:")
     print("  pip install pycryptodome")
     print("\nAnd clone the repository:")
-    print("  git clone https://github.com/zoeir/Bitcoin-Message-Transaction.git")
-    print("  cd Broadcast-Bitcoin-Transaction")
+    print("  git clone https://github.com/zoeir/BitScanPro-Bitcoin-Transaction.git")
+    print("  cd BitScanPro-Bitcoin-Transaction")
     print("  python3 main.py")
     sys.exit(1)
 
@@ -220,4 +220,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
