@@ -147,8 +147,9 @@ Compromised Wallets: 227,200+
 [![Watch the video](https://img.youtube.com/vi/MbctxueoUwU/maxresdefault.jpg)](https://youtu.be/MbctxueoUwU)
 
 <p align="center">
-  <a href="https://youtu.be/MbctxueoUwU" target="_blank">Watch video on YouTube</a>
+  <a href="https://youtu.be/MbctxueoUwU" target="_blank">Watch video on YouTube: https://youtu.be/MbctxueoUwU </a>
 </p>
+
 ---
 
 ## 🚀 <span style="color:#ff00ff">Installation & Setup</span>
@@ -1602,5 +1603,6 @@ SOFTWARE.
 **⭐ If this research helped you, please star the repository! ⭐**
 
 </div>
+
 
 
