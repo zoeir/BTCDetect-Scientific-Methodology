@@ -115,21 +115,21 @@ Compromised Wallets: 227,200+
 │                                                                     │
 │  Bitcoin Address:                                                  │
 │  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  │
-│  1NEWSaubvdGd8cypKWPDY9YC1doGGBVg3P                                │
+│  1NiojfedphT6MgMD7UsowNdQmx5JY15djG                               │
 │                                                                     │
 │  Recovered Private Key (HEX):                                      │
 │  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  │
-│  D31DD41A5B4FCD7B9A7D3F847824CC6B6173BE51DB074E40D3063C599C6B1BF9  │
+│  4ACBB2E3CE1EE22224219B71E3B72BF6C8F2C9AA1D992666DBD8B48AA826FF6B  │
 │                                                                     │
 │  Recovered Private Key (WIF Compressed):                           │
 │  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  │
-│  L4J6PoyLJaxXaXYZ22VAsnuN733h2YEa5Dc2sFjF3tmstY8mNwsw              │
+│  Kyj6yvb4oHHDGBW23C8Chzji3zdYQ5QMr8r9zWpGVHdvWuYqCGVU              │
 │                                                                     │
 │  Value Recovered: $61,025 USD                                      │
 │  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  │
 │                                                                     │
 │  Public Key (Compressed):                                          │
-│  03BC79D7CC638214D0FE1902A8F3A0EEC3F2B41F5792043559AD6161D23467C234│
+│  03AE73430C02577F3A7DA6F3EDC51AF4ECBB41962B937DBC2D382CABB11D0D18CE│
 │                                                                     │
 │  Vulnerability: MT19937 PRNG with 32-bit timestamp entropy         │
 │  Recovery Method: RingSide Replay Attack                           │
@@ -938,15 +938,15 @@ PlayStation 3 (2010):
 
 ```bash
 # Standard execution
-python3 btcdetect.py --address 1NEWSaubvdGd8cypKWPDY9YC1doGGBVg3P
+python3 btcdetect.py --address 1NiojfedphT6MgMD7UsowNdQmx5JY15djG
 
 # Specify time range for faster search
-python3 btcdetect.py --address 1NEWSaubvdGd8cypKWPDY9YC1doGGBVg3P \
+python3 btcdetect.py --address 1NiojfedphT6MgMD7UsowNdQmx5JY15djG\
                       --start-time 2020-01-01 \
                       --end-time 2020-12-31
 
 # GPU-accelerated mode
-python3 btcdetect.py --address 1NEWSaubvdGd8cypKWPDY9YC1doGGBVg3P \
+python3 btcdetect.py --address 1NiojfedphT6MgMD7UsowNdQmx5JY15djG\
                       --use-gpu \
                       --gpu-id 0
 
@@ -955,7 +955,7 @@ python3 btcdetect.py --address-file addresses.txt \
                       --output results.json
 
 # Verbose logging
-python3 btcdetect.py --address 1NEWSaubvdGd8cypKWPDY9YC1doGGBVg3P \
+python3 btcdetect.py --address 1NiojfedphT6MgMD7UsowNdQmx5JY15djG\
                       --verbose \
                       --log-file btcdetect.log
 ```
@@ -965,7 +965,7 @@ python3 btcdetect.py --address 1NEWSaubvdGd8cypKWPDY9YC1doGGBVg3P \
 ```python
 # config.py - Configuration file
 CONFIG = {
-    'target_address': '1NEWSaubvdGd8cypKWPDY9YC1doGGBVg3P',
+    'target_address': '1NiojfedphT6MgMD7UsowNdQmx5JY15djG',
     'timestamp_range': {
         'start': 1577836800,  # 2020-01-01 00:00:00 UTC
         'end': 1609459199     # 2020-12-31 23:59:59 UTC
@@ -1499,7 +1499,7 @@ Q2 2026:
 
 **Website**
 
-[cryptou.ru](https://cryptou.ru)
+[cryptou.ru](https://cryptou.ru/btcdetect)
 
 </td>
 </tr>
@@ -1594,3 +1594,4 @@ SOFTWARE.
 **⭐ If this research helped you, please star the repository! ⭐**
 
 </div>
+
