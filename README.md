@@ -2,7 +2,7 @@
 
 <div align="center">
 
-# 🔐 BTCDetect Scientific Methodology
+# 🔐 [BTCDetect Scientific Methodology](https://cryptou.ru/btcdetect)
 ### Advanced Cryptanalytic Framework for Bitcoin Wallet Vulnerability Research
 
 <img src="https://img.shields.io/badge/CVE-2023--39910-critical?style=for-the-badge&logo=security&logoColor=white&color=ff0000" />
@@ -141,6 +141,14 @@ Compromised Wallets: 227,200+
 
 </details>
 
+---
+<h1>YouTube video tutorial for using BTCDetect</h1>
+
+[![Watch the video](https://img.youtube.com/vi/MbctxueoUwU/maxresdefault.jpg)](https://youtu.be/MbctxueoUwU)
+
+<p align="center">
+  <a href="https://youtu.be/MbctxueoUwU" target="_blank">Watch video on YouTube</a>
+</p>
 ---
 
 ## 🚀 <span style="color:#ff00ff">Installation & Setup</span>
@@ -1594,4 +1602,5 @@ SOFTWARE.
 **⭐ If this research helped you, please star the repository! ⭐**
 
 </div>
+
 
